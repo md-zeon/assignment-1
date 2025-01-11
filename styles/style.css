@@ -301,6 +301,73 @@ body {
 
 /* 
 ========================================
+-------Your Opinion Section Styles------
+========================================
+*/
+
+.opinion-container {
+    margin-bottom: 80px;
+}
+
+.opinion-container .section-title {
+    margin-bottom: 24px;
+}
+
+.opinions {
+    padding: 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.opinion-head {
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    font-size: 20px;
+    color: #0E0E0E;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.opinion-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+}
+
+.opinion-question {
+    padding: 36px 24px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+    border-right: 1px solid rgba(14, 14, 14, 0.15);
+    width: 100%;
+    color: #0E0E0E;
+    font-weight: 600;
+}
+
+.opinion-dropdown-container {
+    padding: 24px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    border-right: 1px solid rgba(14, 14, 14, 0.15);
+    width: 200px;
+    text-align: center;
+}
+
+.opinion-dropdown {
+    padding: 12.5px 16.5px;
+    background-color: #C6E4D6;
+    color: #0E0E0E;
+    font-weight: 600;
+    border-radius: 8px;
+    max-width: 152px;
+}
+
+/* 
+========================================
 -------Recent News Section Styles-------
 ========================================
 */
@@ -432,14 +499,12 @@ body {
     text-align: center;
 }
 
-/* Chrome, Safari, Edge, Opera */
 #other-amount::-webkit-outer-spin-button,
 #other-amount::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-/* Firefox */
 #other-amount[type=number] {
   -moz-appearance: textfield;
 }
@@ -496,6 +561,7 @@ body {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
+    transition: 0.5s;
     cursor: pointer;
 }
 .subscribe-btn:hover {
