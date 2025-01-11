@@ -425,3 +425,56 @@ body {
 .donate-btn {
     padding: 17px 34px;
 }
+
+
+/* 
+========================================
+-------Newsletter Section Styles--------
+========================================
+*/
+
+.newsletter-container {
+    border-radius: 24px;
+    padding: 80px 100px;
+    background-color: #C6E4D6;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.newsletter-container h2 {
+    margin-bottom: 16px;
+}
+
+.newsletter-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 750px;
+    height: 56px;
+    margin: 24px auto;
+}
+
+.newsletter-field input[type="text"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+
+.newsletter-field .subscribe-btn {
+    height: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+    border: none;
+    outline: none;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.subscribe-btn:hover {
+    color: #006A50;
+    background-color: transparent;
+    border: 0.5px solid #006A50;
+}
+
