@@ -48,6 +48,12 @@ body {
     color: #0E0E0E;
 }
 
+.section-description {
+    color: #0E0E0E;
+    opacity: 0.7;
+    line-height: 24px;
+}
+
 /* 
 ========================================
 --------------Navbar Styles-------------
@@ -162,4 +168,102 @@ body {
     line-height: 24px;
     color: #0E0E0E;
     opacity: 0.7;
+}
+
+
+
+
+.future-vision-container {
+    margin-bottom: 80px;
+}
+
+.vision-title {
+    margin-bottom: 24px;
+}
+
+.vision-description {
+    margin-bottom: 32px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* width: 410px; */
+    height: 300px;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0E;
+    opacity: 0.8;
+    margin-top: 24px;
+}
+
+.box-description {
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin-top: 12px;
+}
+
+.box-btn {
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box1 {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.box1 .box-btn {
+    background-color: #5490F5;
+    border: 1px solid #5490F5;
+}
+
+.box1 .box-btn:hover {
+    background-color: transparent;
+    color: #5490F5;
+}
+
+.box2 {
+    background-color: #C6E4D6;
+}
+
+.box2 .box-btn {
+    background-color: #09A15C;
+    border: 1px solid #09A15C;
+}
+
+.box2 .box-btn:hover {
+    background-color: transparent;
+    color: #09A15C;
+}
+
+.box3 {
+    background-color: #F7EBCF;
+}
+
+.box3 .box-btn {
+    background-color: #FFC239;
+    border: 1px solid #FFC239;
+}
+
+.box3 .box-btn:hover {
+    background-color: transparent;
+    color: #FFC239;
 }
