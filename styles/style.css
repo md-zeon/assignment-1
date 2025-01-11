@@ -56,9 +56,6 @@ body {
     line-height: 24px;
 }
 
-#active {
-    background-color: #C6E4D6;
-}
 
 /* 
 ========================================
@@ -416,6 +413,10 @@ body {
     opacity: 0.8;
 }
 
+.active {
+    background-color: #C6E4D6;
+}
+
 #other-amount {
     max-width: 1032px;
     font-size: 20px;
@@ -534,4 +535,5 @@ body {
     align-items: center;
     justify-content: center;
     gap: 24px;
+    text-decoration: none;
 }
