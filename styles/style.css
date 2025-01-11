@@ -54,6 +54,10 @@ body {
     line-height: 24px;
 }
 
+#active {
+    background-color: #C6E4D6;
+}
+
 /* 
 ========================================
 --------------Navbar Styles-------------
@@ -200,7 +204,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 410px;
+    max-width: 410px;
     height: 300px;
     padding: 32px;
     border-radius: 16px;
@@ -412,14 +416,29 @@ body {
 
 #other-amount {
     max-width: 1032px;
-    width: 75%;
+    font-size: 20px;
+    font-weight: 700;
+    width: 90%;
     height: 64px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     padding: 0px 20px;
+    text-align: center;
 }
 
 #other-amount::placeholder {
     text-align: center;
+}
+
+/* Chrome, Safari, Edge, Opera */
+#other-amount::-webkit-outer-spin-button,
+#other-amount::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+#other-amount[type=number] {
+  -moz-appearance: textfield;
 }
 
 .donate-btn {
@@ -454,11 +473,14 @@ body {
     margin: 24px auto;
 }
 
-.newsletter-field input[type="text"] {
+.newsletter-field input[type="email"] {
     width: 100%;
     border: none;
     outline: none;
     height: 100%;
+    padding-left: 40px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.7);
 }
 
 .newsletter-field .subscribe-btn {
@@ -471,6 +493,7 @@ body {
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 600;
+    cursor: pointer;
 }
 .subscribe-btn:hover {
     color: #006A50;
@@ -479,10 +502,23 @@ body {
 }
 
 
+/* 
+========================================
+-------Footer Styles--------
+========================================
+*/
+
+
 .footer {
-    padding: 50px 160px 25px 160px;
+    padding: 50px 160px 40px 160px;
     text-align: center;
     background-color: #FFFFFF;
+}
+
+.footer-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
 }
 
 .footer hr {
