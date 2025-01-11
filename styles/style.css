@@ -366,3 +366,62 @@ body {
     padding: 13px 26px;
 }
 
+
+/* 
+========================================
+------Donate Today Section Styles-------
+========================================
+*/
+
+.donate-today-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.donate-description {
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.donate-amounts {
+    display: flex;
+    gap: 24px;
+}
+
+.amount-box {
+    border-radius: 16px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.amount-box:hover {
+    background-color: #C6E4D6;
+}
+
+.amount-box .amount-title {
+    opacity: 0.8;
+}
+
+#other-amount {
+    max-width: 1032px;
+    width: 75%;
+    height: 64px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 0px 20px;
+}
+
+#other-amount::placeholder {
+    text-align: center;
+}
+
+.donate-btn {
+    padding: 17px 34px;
+}
