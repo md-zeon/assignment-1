@@ -501,12 +501,13 @@ body {
 
 #other-amount::-webkit-outer-spin-button,
 #other-amount::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 #other-amount[type=number] {
-  -moz-appearance: textfield;
+    appearance: textfield;
+    -moz-appearance: textfield;
 }
 
 .donate-btn {
