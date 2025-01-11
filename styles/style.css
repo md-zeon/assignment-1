@@ -171,7 +171,11 @@ body {
 }
 
 
-
+/* 
+========================================
+--------Vision of Future Styles---------
+========================================
+*/
 
 .future-vision-container {
     margin-bottom: 80px;
@@ -196,7 +200,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* width: 410px; */
+    width: 410px;
     height: 300px;
     padding: 32px;
     border-radius: 16px;
@@ -267,3 +271,4 @@ body {
     background-color: transparent;
     color: #FFC239;
 }
+
