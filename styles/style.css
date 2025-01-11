@@ -9,3 +9,38 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
 }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* 
+========================================
+--------------Navbar Styles-------------
+========================================
+*/
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+#navbar .logo h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+
+.sign-in-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    background: transparent;
+}
+
