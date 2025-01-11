@@ -272,8 +272,6 @@ body {
     color: #FFC239;
 }
 
-
-
 .quote-container {
     padding: 48px 24px;
     background-color: #FFFFFF;
@@ -295,5 +293,76 @@ body {
 
 .quote-sub-title {
     opacity: 0.6;
+}
+
+
+/* 
+========================================
+-------Recent News Section Styles-------
+========================================
+*/
+
+.recent-news-container {
+    margin-bottom: 80px;
+}
+
+.recent-news-container .section-title {
+    margin-bottom: 24px;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+}
+
+.news2 {
+    flex-direction: row-reverse;
+}
+
+.news-img {
+    cursor: pointer;
+}
+
+.news-img img {
+    border-radius: 24px;
+}
+
+.news-title {
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 0.8;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.news-date {
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin: 12px 0;
+}
+
+.news-description {
+    line-height: 24px;
+    color: #0E0E0E;
+    opacity: 0.7;
+    margin-top: 12px;
+    margin-bottom: 32px;
+}
+
+.news-btn {
+    padding: 13px 26px;
 }
 
