@@ -152,6 +152,61 @@
     .opinion-container {
         display: none;
     }
+
+    /* 
+    ========================================
+    -------Recent News Section Styles-------
+    ========================================
+    */
+
+    .recent-news-container {
+        margin-bottom: 40px;
+    }
+
+    .recent-news-container .section-title {
+        margin-bottom: 20px;
+    }
+
+    .news-container {
+        gap: 20px;
+        margin-top: 24px;
+    }
+
+    .news {
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .news2 {
+        flex-direction:column;
+    }
+
+    .news-img {
+        cursor: pointer;
+    }
+
+    .news-img img {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .news-title {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .news-description {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: justify;
+    }
+
+    .news-btn {
+        padding: 8px 16px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -328,5 +383,55 @@
 
     .opinion-dropdown-container {
         padding: 20px;
+    }
+
+    /* 
+    ========================================
+    -------Recent News Section Styles-------
+    ========================================
+    */
+
+    .recent-news-container {
+        margin-bottom: 50px;
+    }
+
+    .recent-news-container .section-title {
+        margin-bottom: 24px;
+    }
+
+    .news-container {
+        margin-top: 24px;
+    }
+
+    .news {
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+        padding: 20px;
+        border-radius: 16px;
+    }
+
+    .news2 {
+        flex-direction:column;
+    }
+
+    .news-img img {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .news-title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    .news-description {
+        font-size: 12px;
+        line-height: 18px;
+        text-align: justify;
+    }
+
+    .news-btn {
+        padding: 12px 24px;
     }
 }
