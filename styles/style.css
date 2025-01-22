@@ -150,9 +150,8 @@ body {
 }
 
 .card-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
 }
 
@@ -161,7 +160,6 @@ body {
     background-color: #FFFFFF;
     border-radius: 16px;
     border: 1px solid rgba(14, 14, 14, 0.15);
-    min-height: 244px;
 }
 
 .card-title {

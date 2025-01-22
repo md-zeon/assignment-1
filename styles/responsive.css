@@ -67,6 +67,37 @@
     .banner-btn {
         padding: 12px 24px;
     }
+
+    /* 
+    ========================================
+    ------Pillar of Bangladesh Styles-------
+    ========================================
+    */
+
+
+    .pillar-container {
+        margin-bottom: 40px;
+    }
+
+    .pillar-title {
+        margin-bottom: 24px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 16px;
+    }
+
+    .card {
+        padding: 30px 20px;
+    }
+
+    .card-description {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -139,5 +170,32 @@
         padding: 14px 28px;
     }
 
-    
+    /* 
+    ========================================
+    ------Pillar of Bangladesh Styles-------
+    ========================================
+    */
+
+    .pillar-container {
+        margin-bottom: 50px;
+    }
+
+    .pillar-title {
+        margin-bottom: 24px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+        gap: 18px;
+    }
+
+    .card {
+        padding: 30px 20px;
+    }
+
+    .card-description {
+        font-size: 12px;
+        line-height: 18px;
+    }
 }
