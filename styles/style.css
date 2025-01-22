@@ -197,9 +197,8 @@ body {
 }
 
 .box-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
@@ -207,8 +206,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 410px;
-    height: 300px;
+    gap: 24px;
     padding: 32px;
     border-radius: 16px;
 }

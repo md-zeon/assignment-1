@@ -98,6 +98,52 @@
         line-height: 18px;
     }
 
+    /* 
+    ========================================
+    --------Vision of Future Styles---------
+    ========================================
+    */
+
+    .future-vision-container {
+        margin-bottom: 40px;
+    }
+
+    .vision-title {
+        margin-bottom: 18px;
+    }
+
+    .vision-description {
+        margin-bottom: 24px;
+    }
+
+    .box-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 24px;
+    }
+
+    .box {
+        gap: 18px;
+    }
+
+    .box-title {
+        margin-top: 20px;
+    }
+
+    .box-description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .quote-container {
+        padding: 48px 20px;
+    }
+
+    .quote-container .section-description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -197,5 +243,51 @@
     .card-description {
         font-size: 12px;
         line-height: 18px;
+    }
+
+    /* 
+    ========================================
+    --------Vision of Future Styles---------
+    ========================================
+    */
+
+    .future-vision-container {
+        margin-bottom: 50px;
+    }
+
+    .vision-title {
+        margin-bottom: 20px;
+    }
+
+    .vision-description {
+        margin-bottom: 24px;
+    }
+
+    .box-container {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        text-align: center;
+        gap: 24px;
+    }
+
+    .box {
+        gap: 18px;
+    }
+
+    .box-title {
+        margin-top: 20px;
+    }
+
+    .box-description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .quote-container {
+        padding: 48px 20px;
+    }
+
+    .quote-container .section-description {
+        font-size: 12px;
+        line-height: 20px;
     }
 }
