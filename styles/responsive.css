@@ -275,6 +275,21 @@
         padding-right: 10px;
         font-size: 12px;
     }
+
+    /* 
+    ========================================
+    -------Footer Styles--------
+    ========================================
+    */
+
+
+    .footer {
+        padding: 40px 80px 25px 80px;
+    }
+
+    .footer-title {
+        font-size: 24px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
