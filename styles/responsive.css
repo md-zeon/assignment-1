@@ -143,7 +143,15 @@
         font-size: 12px;
         line-height: 20px;
     }
+    /* 
+    ========================================
+    -------Your Opinion Section Styles------
+    ========================================
+    */
 
+    .opinion-container {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -289,5 +297,36 @@
     .quote-container .section-description {
         font-size: 12px;
         line-height: 20px;
+    }
+
+    /* 
+    ========================================
+    -------Your Opinion Section Styles------
+    ========================================
+    */
+
+    .opinion-container {
+        margin-bottom: 50px;
+    }
+
+    .opinion-container .section-title {
+        margin-bottom: 20px;
+    }
+
+    .opinions {
+        grid-template-columns: 1fr 1fr;
+        padding: 24px;
+    }
+
+    .opinion-head {
+        padding: 20px;
+    }
+
+    .opinion-question {
+        padding: 30px 20px;
+    }
+
+    .opinion-dropdown-container {
+        padding: 20px;
     }
 }
