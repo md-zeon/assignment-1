@@ -1,0 +1,72 @@
+@media screen and (max-width: 576px) {
+    /* 
+    ========================================
+    --------------Shared Styles-------------
+    ========================================
+    */
+    .container {
+        width: 90%;
+    }
+
+    .btn-primary {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .section-description {
+        font-size: 12px;
+    }
+
+
+    /* 
+    ========================================
+    --------------Navbar Styles-------------
+    ========================================
+    */
+
+    #navbar {
+        padding: 20px 0;
+    }
+
+    #navbar .logo h1 {
+        font-size: 24px;
+    }
+
+    .sign-in-btn {
+        font-size: 14px;
+        padding: 12px 24px;
+    }
+
+    /* 
+    ========================================
+    -------------Banner Styles--------------
+    ========================================
+    */
+
+    .banner-container {
+        flex-direction: column-reverse;
+        gap: 40px;
+        padding: 40px 30px;
+        border-radius: 16px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .banner-sub-title {
+        font-size: 16px;
+    }
+
+    .banner-title {
+        font-size: 32px;
+    }
+
+    .banner-btn {
+        padding: 12px 24px;
+    }
+
+    
+}

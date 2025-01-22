@@ -11,6 +11,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .font-fira-sans {
@@ -117,6 +118,7 @@ body {
 }
 
 .banner-title {
+    max-width: 540px;
     font-size: 56px;
     font-weight: 700;
     color: #0E0E0E;
@@ -126,6 +128,10 @@ body {
 
 .banner-btn {
     padding: 17px 34px;
+}
+
+.banner-img img {
+    width: 100%;
 }
 
 /* 
