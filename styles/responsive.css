@@ -207,6 +207,43 @@
     .news-btn {
         padding: 8px 16px;
     }
+
+    /* 
+    ========================================
+    ------Donate Today Section Styles-------
+    ========================================
+    */
+
+    .donate-today-container {
+        gap: 24px;
+        margin-bottom: 40px;
+    }
+
+    .donate-description {
+        margin-top: 20px;
+        margin-bottom: 24px;
+        line-height: 18px;
+    }
+
+    .donate-amounts {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .amount-box {
+        padding: 30px;
+    }
+
+    #other-amount {
+        max-width: 1032px;
+        font-size: 16px;
+        opacity: 0.8;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+    }
+
+    .donate-btn {
+        padding: 14px 28px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -433,5 +470,41 @@
 
     .news-btn {
         padding: 12px 24px;
+    }
+
+    /* 
+    ========================================
+    ------Donate Today Section Styles-------
+    ========================================
+    */
+
+    .donate-today-container {
+        gap: 24px;
+        margin-bottom: 50px;
+    }
+
+    .donate-description {
+        margin-top: 20px;
+        margin-bottom: 24px;
+        line-height: 18px;
+    }
+
+    .donate-amounts {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .amount-box {
+        padding: 30px;
+    }
+
+    #other-amount {
+        max-width: 1032px;
+        font-size: 16px;
+        opacity: 0.8;
+        border: 1px solid rgba(14, 14, 14, 0.15);
+    }
+
+    .donate-btn {
+        padding: 14px 28px;
     }
 }
