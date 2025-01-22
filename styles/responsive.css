@@ -244,6 +244,37 @@
     .donate-btn {
         padding: 14px 28px;
     }
+
+    /* 
+    ========================================
+    -------Newsletter Section Styles--------
+    ========================================
+    */
+
+    .newsletter-container {
+        border-radius: 16px;
+        padding: 40px 30px;
+        margin-bottom: 40px;
+    }
+
+    .newsletter-field {
+        height: 40px;
+    }
+
+    .newsletter-field input[type="email"] {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .newsletter-field input[type="email"]::placeholder {
+        font-size: 12px;
+    }
+
+    .newsletter-field .subscribe-btn {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -506,5 +537,36 @@
 
     .donate-btn {
         padding: 14px 28px;
+    }
+
+    /* 
+    ========================================
+    -------Newsletter Section Styles--------
+    ========================================
+    */
+
+    .newsletter-container {
+        border-radius: 16px;
+        padding: 50px 40px;
+        margin-bottom: 40px;
+    }
+
+    .newsletter-field {
+        height: 40px;
+    }
+
+    .newsletter-field input[type="email"] {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .newsletter-field input[type="email"]::placeholder {
+        font-size: 12px;
+    }
+
+    .newsletter-field .subscribe-btn {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 12px;
     }
 }
